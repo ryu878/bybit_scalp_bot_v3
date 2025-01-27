@@ -29,8 +29,8 @@ This project is a trading bot designed to leverage liquidation data to identify 
 
 ## How It Works
 1. The bot continuously monitors liquidation data from the exchange.
-2. When a significant liquidation event occurs (e.g., a large number of long positions liquidated), the bot evaluates market conditions.
-3. If the conditions align with the strategy (e.g., overbought signals, bearish price action), the bot opens a short position.
+2. When a significant liquidation event occurs (a large number of long positions liquidated), the bot evaluates market conditions.
+3. If the conditions align with the strategy, the bot opens a short position.
 4. The trade is managed according to predefined risk management rules.
 
 ## Future Enhancements (Optional)
