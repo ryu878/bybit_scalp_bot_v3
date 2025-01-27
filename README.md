@@ -44,6 +44,8 @@ This project is a trading bot designed to leverage liquidation data to identify 
 This project is for educational purposes only. Trading involves significant risk, and you should never trade with money you cannot afford to lose. The strategy implemented in this bot may not be profitable, and past performance is not indicative of future results. Use at your own risk.
 
 ```
+git clone git@github.com:ryu878/bybit_scalp_bot_v3.git
+
 conda create --name BybitScalpBotv3 -c conda-forge python=3.11
 
 conda activate BybitScalpBotv3
