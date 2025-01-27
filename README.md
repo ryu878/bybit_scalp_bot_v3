@@ -8,26 +8,21 @@ This project is a trading bot designed to leverage liquidation data to identify 
 
 ## Key Features
 1. **Liquidation Data Integration:**
-   - The bot monitors liquidation events in real-time using data from exchanges or APIs that provide liquidation feeds.
+   - The bot monitors liquidation events in real-time using data from Bybit API.
    - It identifies large liquidation clusters, which often indicate potential market reversals or increased volatility.
 
 2. **Short-Only Strategy:**
    - The bot is configured to open short positions when specific liquidation-based conditions are met (e.g., a surge in long liquidations suggesting potential downward pressure).
-   - It uses technical indicators (e.g., RSI, moving averages) or price action to confirm entry points.
 
 3. **Risk Management:**
-   - Includes stop-loss and take-profit mechanisms to manage risk.
-   - Position sizing is dynamic, based on account balance and risk tolerance.
+   - Includes averaging and take-profit mechanisms to manage risk.
+   - Position sizing is static and you can adjust it using settings.
 
 4. **Modular Design:**
    - The code is structured to allow easy addition of long-position support.
-   - Customizable parameters for strategy tuning (e.g., liquidation threshold, confirmation indicators).
+   - Customizable parameters for strategy tuning.
 
-5. **Real-Time Trading:**
-   - Connects to supported exchanges via API to execute trades in real-time.
-   - Logs all trades and performance metrics for review.
-
-6. **Educational Focus:**
+5. **Educational Focus:**
    - The project is designed for learning purposes, with clear documentation and comments in the code.
    - Encourages experimentation with different strategies and parameters.
 
